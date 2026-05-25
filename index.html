@@ -3765,15 +3765,38 @@ Mari kita lihat proposisi-proposisi berikut (masing-masing diberi label huruf):
 </ul>
 Penalaran logis kita akan berjalan sebagai berikut:
 </p>
-
-| Premis | Kesimpulan |
-| --- | --- |
-| Jika A, maka B. | Bukan A. |
-| Bukan B. | F. |
-| C & D. |  |
-| Jika C & D & E, maka F. |  |
-| E. |  |
-
+<center>
+<table style="width: max-content; border-collapse: collapse; background-color: #1e1e1e; color: #ffffff; font-family: sans-serif; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #333333; border-bottom: 2px solid #555555;">
+      <th style="padding: 12px 24px; text-align: left; border: 1px solid #444444;">Premis</th>
+      <th style="padding: 12px 24px; text-align: left; border: 1px solid #444444;">Kesimpulan</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr style="border-bottom: 1px solid #444444;">
+      <td style="padding: 12px 24px; border: 1px solid #444444;">Jika A, maka B.</td>
+      <td style="padding: 12px 24px; border: 1px solid #444444;">Bukan A.</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #444444;">
+      <td style="padding: 12px 24px; border: 1px solid #444444;">Bukan B.</td>
+      <td style="padding: 12px 24px; border: 1px solid #444444;">F.</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #444444;">
+      <td style="padding: 12px 24px; border: 1px solid #444444;">C &amp; D.</td>
+      <td style="padding: 12px 24px; border: 1px solid #444444;">&nbsp;</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #444444;">
+      <td style="padding: 12px 24px; border: 1px solid #444444;">Jika C &amp; D &amp; E, maka F.</td>
+      <td style="padding: 12px 24px; border: 1px solid #444444;">&nbsp;</td>
+    </tr>
+    <tr style="border-bottom: 1px solid #444444;">
+      <td style="padding: 12px 24px; border: 1px solid #444444;">E.</td>
+      <td style="padding: 12px 24px; border: 1px solid #444444;">&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+</center>
 <p align="justify">
 Sama seperti silogisme Aristoteles, hal di atas mewakili inferensi yang valid. Agar suatu inferensi valid, kebenaran dari kalimat yang dikenal sebagai kesimpulan harus disimpulkan dari kebenaran kalimat lain yang disebut premis.
 </p>
@@ -3799,6 +3822,7 @@ Fakta bahwa aljabar Boole dapat menangkap jenis penalaran yang terjadi secara in
 <h3>Analisis Boole Mengenai Eksistensi Tuhan</h3>
 <p align="justify">
 Berikut ini menunjukkan metode penalaran Boole yang berkaitan dengan eksistensi Tuhan. Premis-premisnya adalah sebagai berikut:
+</p>
 <ul align="justify">
 <li> <b>ke-1:</b> Sesuatu itu ada.</li>
 <li> <b>ke-2:</b> Jika sesuatu itu ada, maka sesuatu itu selalu ada, atau benda-benda yang ada sekarang telah muncul dari ketiadaan.</li>
@@ -3806,7 +3830,9 @@ Berikut ini menunjukkan metode penalaran Boole yang berkaitan dengan eksistensi 
 <li> <b>ke-4:</b> Jika ia ada karena keniscayaan kodratnya sendiri, maka sesuatu itu selalu ada.</li>
 <li> <b>ke-5:</b> Jika ia ada karena kehendak makhluk lain, maka hipotesis bahwa benda-benda yang ada sekarang telah muncul dari ketiadaan adalah salah.</li>
 </ul>
+<p>
 Proposisi di atas dapat dinyatakan secara simbolis sebagai berikut:
+</p>
 <ul align="justify">
 <li> $x$ = Sesuatu itu ada.</li>
 <li> $y$ = Sesuatu itu selalu ada.</li>
@@ -3814,10 +3840,19 @@ Proposisi di atas dapat dinyatakan secara simbolis sebagai berikut:
 <li> $v$ = Ia ada karena keniscayaan kodratnya sendiri (yaitu "sesuatu" yang dibicarakan di atas).</li>
 <li> $w$ = Ia ada karena kehendak makhluk lain.</li>
 </ul>
+<p>
 Boole kemudian mendapatkan persamaan-persamaan berikut dari premis-premis di atas:
+</p>
 $$
-1 - x = 0, \quad x\{yz + (1 - y)(1 - z)\} = 0, \quad x\{vw + (1 - v)(1 - w)\} = 0, \quad v(1 - y) = 0, \quad wz = 0
+\begin{aligned}
+1 - x &= 0,\\
+x\{yz + (1 - y)(1 - z)\} &= 0,\\
+x\{vw + (1 - v)(1 - w)\} &= 0,\\
+v(1 - y) &= 0,\\
+wz &= 0.
+\end{aligned}
 $$
+<p align="justify">
 Sistem logikanya mencakup sistem logika Aristoteles tetapi melangkah jauh melampauinya. Namun, hal itu masih jauh dari apa yang diperlukan untuk memenuhi impian Leibniz. Karena aljabar Boole merepresentasikan suatu sistem aturan untuk menghitung, aljabar ini dalam beberapa hal dapat dianggap sebagai <i>calculus ratiocinator</li> yang dicari oleh Leibniz.
 </p>
 <p align="justify">
@@ -3846,10 +3881,12 @@ Demikian pula, ia akan menganalisis kalimat "Beberapa kuda adalah ras murni" men
 $x$ adalah seekor kuda dan $x$ adalah ras murni.
 <br>
 Huruf $x$ telah digunakan secara berbeda dalam kedua contoh ini.
+</p>
 <ul align="justify">
 <li> Pada contoh pertama, apa yang ditegaskan adalah benar apa pun $x$-nya, yaitu untuk setiap $x$.</li>
 <li> Pada contoh kedua, penegasan tersebut hanya untuk beberapa $x$.</li>
 </ul>
+<p align="justify">
 Dalam simbolisme yang digunakan saat ini, "untuk setiap" ditulis sebagai "$\forall$" dan "untuk beberapa" ditulis sebagai "$\exists$". Dengan demikian, kedua kalimat tersebut dapat ditulis sebagai berikut:
 $$
 (\forall x)(\text{jika } x \text{ adalah seekor kuda, maka } x \text{ adalah seekor mamalia})
@@ -3872,7 +3909,7 @@ $$
 (\forall x)(\text{kuda}(x) \rightarrow \text{mamalia}(x))
 $$
 $$
-(\exists x)(\text{kuda}(x) \wedge \text{ras\_murni}(x))
+(\exists x)(\text{kuda}(x) \wedge \text{ras}\_\text{murni}(x))
 $$
 Pada penyingkatan lebih lanjut, mereka menjadi:
 $$
@@ -3899,37 +3936,37 @@ $$F$$
 Satu simbol terakhir yang harus diperkenalkan di sini adalah $\vee$, yang mewakili "...atau...". Tabel di bawah ini memberikan ringkasan dari simbol-simbol yang telah diperkenalkan:
 </p>
 <center>
-<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: 100%; max-width: 500px; font-family: sans-serif; background-color: #121212; color: #ffffff; border-color: #444444;">
+<table border="1" cellpadding="8" cellspacing="0" style="border-collapse: collapse; width: max-content; font-family: sans-serif; background-color: #121212; color: #ffffff; border-color: #444444;">
   <thead>
     <tr style="background-color: #1e1e1e; text-align: left;">
-      <th style="padding: 12px; width: 30%; border: 1px solid #444444;">Simbol</th>
-      <th style="padding: 12px; border: 1px solid #444444;">Arti</th>
+      <th style="padding: 12px 20px; border: 1px solid #444444; text-align: center;">Simbol</th>
+      <th style="padding: 12px 20px; border: 1px solid #444444;">Arti</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="padding: 12px; font-weight: bold; text-align: center; border: 1px solid #444444;">¬</td>
-      <td style="padding: 12px; border: 1px solid #444444;">bukan / tidak ...</td>
+      <td style="padding: 12px 20px; font-weight: bold; text-align: center; border: 1px solid #444444;">¬</td>
+      <td style="padding: 12px 20px; border: 1px solid #444444;">bukan / tidak ...</td>
     </tr>
     <tr>
-      <td style="padding: 12px; font-weight: bold; text-align: center; border: 1px solid #444444;">∨</td>
-      <td style="padding: 12px; border: 1px solid #444444;">... atau ...</td>
+      <td style="padding: 12px 20px; font-weight: bold; text-align: center; border: 1px solid #444444;">∨</td>
+      <td style="padding: 12px 20px; border: 1px solid #444444;">... atau ...</td>
     </tr>
     <tr>
-      <td style="padding: 12px; font-weight: bold; text-align: center; border: 1px solid #444444;">∧</td>
-      <td style="padding: 12px; border: 1px solid #444444;">... dan ...</td>
+      <td style="padding: 12px 20px; font-weight: bold; text-align: center; border: 1px solid #444444;">∧</td>
+      <td style="padding: 12px 20px; border: 1px solid #444444;">... dan ...</td>
     </tr>
     <tr>
-      <td style="padding: 12px; font-weight: bold; text-align: center; border: 1px solid #444444;">→</td>
-      <td style="padding: 12px; border: 1px solid #444444;">jika ..., maka ...</td>
+      <td style="padding: 12px 20px; font-weight: bold; text-align: center; border: 1px solid #444444;">→</td>
+      <td style="padding: 12px 20px; border: 1px solid #444444;">jika ..., maka ...</td>
     </tr>
     <tr>
-      <td style="padding: 12px; font-weight: bold; text-align: center; border: 1px solid #444444;">∀</td>
-      <td style="padding: 12px; border: 1px solid #444444;">semua / setiap</td>
+      <td style="padding: 12px 20px; font-weight: bold; text-align: center; border: 1px solid #444444;">∀</td>
+      <td style="padding: 12px 20px; border: 1px solid #444444;">semua / setiap</td>
     </tr>
     <tr>
-      <td style="padding: 12px; font-weight: bold; text-align: center; border: 1px solid #444444;">∃</td>
-      <td style="padding: 12px; border: 1px solid #444444;">beberapa / ada</td>
+      <td style="padding: 12px 20px; font-weight: bold; text-align: center; border: 1px solid #444444;">∃</td>
+      <td style="padding: 12px 20px; border: 1px solid #444444;">beberapa / ada</td>
     </tr>
   </tbody>
 </table>
@@ -3937,26 +3974,30 @@ Satu simbol terakhir yang harus diperkenalkan di sini adalah $\vee$, yang mewaki
 <p align="justify">
 Meskipun kalimat berikut memiliki struktur logis yang akan terlewatkan oleh analisis Boole, kalimat ini akan mudah diekspresikan dalam logika Frege:
 <br>
-  Semua mahasiswa yang gagal adalah bodoh atau malas.
+  $\qquad$ Semua mahasiswa yang gagal adalah bodoh atau malas.
 <br>
 Menggunakan simbol-simbol berikut:
+</p>
 <ul align="justify">
 <li> $G(x)$ untuk $x$ adalah mahasiswa yang gagal,</li>
 <li> $B(x)$ untuk $x$ adalah bodoh,</li>
 <li> $M(x)$ untuk $x$ adalah malas,</li>
 </ul>
+<p align="justify">
 kalimat tersebut dapat diekspresikan sebagai:
 $$\forall x (G(x) \rightarrow B(x) \vee M(x))$$
 Jelas terlihat bahwa Frege tidak sekadar mengembangkan perlakuan matematika terhadap logika. Ia sebenarnya sedang menciptakan sebuah bahasa baru dan dipandu dalam hal ini oleh gagasan Leibniz tentang bahasa universal, yang akan memperoleh kekuatannya dari pilihan simbol yang bijaksana.
 </p>
 <p align="justify">
 Contoh-contoh berikut, di mana $C(x, y)$ mewakili "$x$ mencintai $y$", menunjukkan daya ekspresif dari bahasa ini:
+</p>
 <ul align="justify">
 <li> <b>Semua orang mencintai seseorang:</b> $(\forall x)(\exists y)C(x, y)$</li>
 <li> <b>Seseorang mencintai semua orang:</b> $(\exists x)(\forall y)C(x, y)$</li>
 <li> <b>Semua orang dicintai oleh seseorang:</b> $(\forall y)(\exists x)C(x, y)$</li>
 <li> <b>Seseorang dicintai oleh semua orang:</b> $(\exists y)(\forall x)C(x, y)$</li>
 </ul>
+<p align="justify">
 Berikut adalah contoh lebih lanjut: "Semua orang mencintai seorang pencinta." Pernyataan ini dapat diekspresikan sebagai berikut:
 $$(\forall x)(\forall y)[y \text{ adalah seorang pencinta} \rightarrow C(x, y)]$$
 Jika kita menginterpretasikan "menjadi seorang pencinta" hanya sebagai "mencintai seseorang", kita dapat mengganti "$y$ adalah seorang pencinta" dengan $(\exists z)C(y, z)$, sehingga akhirnya kita mendapatkan:
@@ -3968,9 +4009,10 @@ $$\forall x \forall y [(\exists z)C(y, z) \rightarrow C(x, y)]$$
 Boole telah menggunakan metode matematika biasa untuk mengembangkan logika, yang ia anggap hanya sebagai cabang matematika lainnya. Ada sesuatu yang berputar-putar (<i>circular</i>) tentang penggunaan logika untuk mengembangkan logika, yang tidak dapat diterima oleh Frege, karena ia ingin menunjukkan bagaimana seluruh matematika dapat didasarkan pada logika. Agar meyakinkan, ia harus menemukan cara untuk mengembangkan logikanya tanpa menggunakan logika dalam prosesnya.
 </p>
 <p align="justify">
-Sebagai solusinya, ia mengembangkan <i>Begriffsschrift</i> nya sebagai bahasa buatan dengan aturan tata bahasa, atau sintaksis, yang sangat tepat. Hal ini memungkinkan untuk menunjukkan inferensi logis sebagai operasi yang sepenuhnya mekanis—yang disebut aturan inferensi—yang hanya merujuk pada pola-pola di mana simbol-simbol tersebut disusun. Ini juga merupakan contoh pertama dari bahasa buatan formal yang dikonstruksikan dengan sintaksis yang tepat. Oleh karena itu, kita dapat menganggap <i>Begriffsschrift</i> sebagai nenek moyang dari semua bahasa pemrograman komputer yang umum digunakan saat ini.
+Sebagai solusinya, ia mengembangkan <i>Begriffsschrift</i> nya sebagai bahasa buatan dengan aturan tata bahasa, atau sintaksis, yang sangat tepat. Hal ini memungkinkan untuk menunjukkan inferensi logis sebagai operasi yang sepenuhnya mekanis yang disebut aturan inferensi yang hanya merujuk pada pola-pola di mana simbol-simbol tersebut disusun. Ini juga merupakan contoh pertama dari bahasa buatan formal yang dikonstruksikan dengan sintaksis yang tepat. Oleh karena itu, kita dapat menganggap <i>Begriffsschrift</i> sebagai nenek moyang dari semua bahasa pemrograman komputer yang umum digunakan saat ini.
 </p>
-Menurut aturan inferensi Frege, jika $\diamond$ dan $\Delta$ adalah dua kalimat apa saja dalam *Begriffsschrift*, maka jika $\diamond$ dan $(\diamond \rightarrow \Delta)$ keduanya ditegaskan, maka seseorang diperbolehkan untuk juga menegaskan kalimat $\Delta$. Untuk menjalankan operasi ini, tidak perlu memahami apa arti dari $\rightarrow$. Aturan ini tidak dapat menyebabkan kesalahan karena ia hanya memungkinkan seseorang untuk melanjutkan dari $\diamond$ dan (Jika $\diamond$, maka $\Delta$) menuju $\Delta$.
+<p align="justify">
+Menurut aturan inferensi Frege, jika $\diamond$ dan $\Delta$ adalah dua kalimat apa saja dalam <i>Begriffsschrift</i>, maka jika $\diamond$ dan $(\diamond \rightarrow \Delta)$ keduanya ditegaskan, maka seseorang diperbolehkan untuk juga menegaskan kalimat $\Delta$. Untuk menjalankan operasi ini, tidak perlu memahami apa arti dari $\rightarrow$. Aturan ini tidak dapat menyebabkan kesalahan karena ia hanya memungkinkan seseorang untuk melanjutkan dari $\diamond$ dan (Jika $\diamond$, maka $\Delta$) menuju $\Delta$.
 </p>
 <p align="justify">
 Untuk benar-benar menggunakan aturan tersebut, seseorang perlu mencocokkan simbol-simbol individual yang membentuk kalimat $\diamond$ dengan simbol-simbol di bagian pertama dari kalimat yang lebih panjang secara satu per satu. Dalam contoh Robert dan buku ceknya, kita memiliki premis berikut:
@@ -3980,7 +4022,7 @@ $$(C \wedge D \wedge E) \rightarrow F, \quad C \wedge D \wedge E$$
 Logika Frege telah menjadi logika standar yang diajarkan kepada mahasiswa sarjana dalam kursus logika di departemen matematika, ilmu komputer, dan filsafat, serta menjadi dasar bagi banyak penelitian. Hal ini secara tidak langsung telah mengarahkan Alan Turing untuk merumuskan konsep komputer serbaguna. Logikanya merupakan kemajuan besar atas logika Boole.
 </p>
 <p align="justify">
-Logika ini memelopori sistem logika matematika yang tepat yang mencakup—setidaknya secara prinsip—semua penalaran yang biasanya digunakan oleh para matematikawan. Dimulai dari beberapa premis dalam logika Frege, aturan Frege dapat diterapkan dalam upaya mencapai kesimpulan yang diinginkan. Namun, jika upaya tersebut tidak berhasil, tidak ada cara untuk mengetahui apakah hal ini disebabkan oleh kurangnya kecerdasan atau ketekunan, atau apakah kesimpulan yang valid tersebut memang tidak mengikuti premis yang diberikan. Kelemahan dalam aturan logika Frege ini berarti bahwa impian Leibniz tentang mesin hitung masih belum terpenuhi.
+Logika ini memelopori sistem logika matematika yang tepat yang mencakup setidaknya secara prinsip semua penalaran yang biasanya digunakan oleh para matematikawan. Dimulai dari beberapa premis dalam logika Frege, aturan Frege dapat diterapkan dalam upaya mencapai kesimpulan yang diinginkan. Namun, jika upaya tersebut tidak berhasil, tidak ada cara untuk mengetahui apakah hal ini disebabkan oleh kurangnya kecerdasan atau ketekunan, atau apakah kesimpulan yang valid tersebut memang tidak mengikuti premis yang diberikan. Kelemahan dalam aturan logika Frege ini berarti bahwa impian Leibniz tentang mesin hitung masih belum terpenuhi.
 </p>
 
 <h3>Kesimpulan: Logika Manusia vs. Inteligensi Mesin</h3>
@@ -3997,7 +4039,7 @@ Bahkan komputer yang telah mengalahkan seorang master catur kelas dunia dalam pe
 Sebagai model untuk deduksi logis, penulis ingin menyarankan tokoh detektif swasta fiksi terkenal dan ahli logika, Sherlock Holmes, yang dimodelkan dari seorang dokter, Dr. Joseph Bell, oleh penciptanya, Arthur Conan Doyle. Holmes mampu menyelesaikan semua kasusnya melalui kekuatan pengamatannya yang besar atau perhatiannya terhadap detail (membentuk premis) dan kemampuannya yang luar biasa dalam deduksi logis (membentuk kesimpulan).
 </p>
 <p align="justify">
-Jadi, dalam deduksi logis, fakta-fakta sangat diperlukan dan ini dapat diperoleh melalui pengamatan, interogasi, dan penelitian. Kemudian kita harus menghubungkan data atau fakta yang dikumpulkan—kita harus memikirkan hubungan logis di antara mereka dan tiba pada kesimpulan logis yang valid. Bahkan jika ada sedikit keraguan tentang validitas kesimpulan tersebut, kita masih bisa melanjutkan untuk bertindak berdasarkan pemahaman yang dapat dibenarkan bahwa <b>"tidak peduli seberapa mustahilnya solusi tersebut tampaknya, itu haruslah yang benar setelah hal-hal lain gagal</b>.
+Jadi, dalam deduksi logis, fakta-fakta sangat diperlukan dan ini dapat diperoleh melalui pengamatan, interogasi, dan penelitian. Kemudian kita harus menghubungkan data atau fakta yang dikumpulkankita harus memikirkan hubungan logis di antara mereka dan tiba pada kesimpulan logis yang valid. Bahkan jika ada sedikit kerag uan tentang validitas kesimpulan tersebut, kita masih bisa melanjutkan untuk bertindak berdasarkan pemahaman yang dapat dibenarkan bahwa <b>"tidak peduli seberapa mustahilnya solusi tersebut tampaknya, itu haruslah yang benar setelah hal-hal lain gagal</b>.
 </p>
 <p align="justify">
 Deduksi logis adalah proses yang mungkin melibatkan uji coba dan kegagalan (<i>trial and error</i>) atau uji coba dan eliminasi. Mungkin ada beberapa teori atau kesimpulan yang mungkin berdasarkan bukti yang ada. Anda mempertimbangkan setiap teori dengan cermat, menimbang pro dan kontranya, membuang semua teori yang tidak mungkin satu per satu, hingga hanya tersisa beberapa teori yang mungkin. Kemudian Anda memilih teori atau kesimpulan yang paling mungkin benar di antara yang sedikit ini. (Sering kali, Anda tidak dapat sepenuhnya yakin apakah teori atau kesimpulan yang Anda anggap benar itu memang benar. Ini adalah salah satu hambatan dalam hidup. Oleh karena itu, pola pikir yang objektif dan fleksibel sangatlah penting.)
