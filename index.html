@@ -2343,7 +2343,7 @@ Jadi, jika "perasaan kepastian" bahwa suatu kesimpulan itu sah atau benar dapat 
 </p>
 
 <h3>Falsiti: Kepalsuan, Negasi, dan Relativitas Kebenaran</h3>
-<p align="justify">
+<p align="justify" class="intro-dropcap">
 Dalam pembahasan tentang logika, bukti, dan paradoks, terdapat satu konsep yang sering tersembunyi di balik wacana tentang “kebenaran”, yakni <b>falsiti</b> atau <i>falsity</i> dalam bahasa Indonesia dapat disebut <b>kepalsuan</b> atau <b>falsitas</b>. Jika kebenaran (<i>truth</i>) adalah status yang dimiliki proposisi ketika ia sesuai dengan kenyataan, maka falsiti adalah status yang dimiliki proposisi ketika ia tidak sesuai dengan kenyataan, atau ketika nilai semantiknya dalam suatu sistem logika adalah “salah” (<i>false</i>). Namun, sebagaimana “logika” yang dibahas sebelumnya, “falsiti” tidak sesederhana itu. Ia bergantung pada teori kebenaran yang dianut, sistem logika yang dipakai, dan bahkan struktur otak yang mempersepsikannya.
 </p>
 
@@ -2549,6 +2549,1530 @@ Dari contoh-contoh di atas, tampak bahwa falsiti dalam matematika sering bersifa
 <p align="justify">
 Karena itu, menilai falsiti tidak cukup hanya dengan merasa bahwa sesuatu “tidak logis” atau “tidak masuk akal”. Diperlukan kejelasan tentang sistem yang dipakai, data yang tersedia, kriteria kebenaran yang disepakati, dan akibat praktis dari kesimpulan tersebut. Inilah alasan mengapa penyelesaian perselisihan yang melibatkan falsiti membutuhkan prosedur objektif, bukti empiris, dan kadang-kadang penengah yang netral, sebagaimana diuraikan dalam Alternatif A dan Alternatif B sebelumnya.
 </p>
+
+
+<!-- =========================================================
+     DUHEM–QUINE DAN FILSAFAT ILMU
+     ========================================================= -->
+
+<section class="page">
+
+  <h1>Duhem–Quine dan Filsafat Ilmu</h1>
+
+  <p align="justify" class="intro-dropcap">
+    Dalam pembahasan tentang metode ilmiah, kita sering menemukan gambaran
+    sederhana bahwa sebuah teori diuji melalui eksperimen. Jika hasil eksperimen
+    tidak sesuai dengan prediksi teori, maka teori tersebut dianggap salah.
+    Gagasan <b>Duhem–Quine</b> menunjukkan bahwa persoalannya tidak sesederhana
+    itu. Dalam praktik ilmiah, sebuah teori hampir tidak pernah diuji sendirian,
+    melainkan bersama sejumlah asumsi, model, kondisi awal, serta asumsi tentang
+    instrumen dan prosedur pengukuran.
+  </p>
+
+  <h2>1. Siapa Duhem dan Quine?</h2>
+
+  <p>
+    Istilah <b>Duhem–Quine</b> merujuk pada gagasan yang berhubungan dengan
+    pemikiran dua filsuf, yaitu <b>Pierre Duhem</b> dan
+    <b>W. V. O. Quine</b>. Keduanya tidak mengembangkan teori yang identik,
+    sehingga istilah "Duhem–Quine" sebaiknya dipahami sebagai nama bagi
+    suatu keluarga persoalan filosofis mengenai bagaimana teori ilmiah
+    berhubungan dengan bukti empiris.
+  </p>
+
+  <p>
+    Duhem terutama membahas persoalan ini dalam konteks <b>fisika</b>.
+    Menurutnya, eksperimen fisika tidak menguji satu hipotesis fisik yang
+    berdiri sendiri. Sebuah eksperimen biasanya melibatkan berbagai
+    proposisi teoritis dan asumsi tambahan.
+  </p>
+
+  <p>
+    Quine kemudian mengembangkan persoalan tersebut dalam bentuk yang lebih
+    luas, terutama melalui gagasannya mengenai hubungan antara pengalaman,
+    bahasa, dan keseluruhan sistem keyakinan atau pengetahuan kita.
+    Karena itu, pembahasan Duhem–Quine kemudian menjadi penting dalam
+    epistemologi dan filsafat ilmu.
+  </p>
+
+
+  <h2>2. Gagasan Dasar: Teori Tidak Diuji Sendirian</h2>
+
+  <p>
+    Misalkan kita mempunyai suatu teori <i>T</i> yang menghasilkan prediksi
+    <i>P</i>. Secara sederhana kita dapat menuliskannya sebagai:
+  </p>
+
+  <div class="math">
+    \[
+      T \Rightarrow P
+    \]
+  </div>
+
+  <p>
+    Jika eksperimen menghasilkan <i>¬P</i>, tampaknya kita dapat menggunakan
+    <i>modus tollens</i>:
+  </p>
+
+  <div class="math">
+    \[
+      T \Rightarrow P,\qquad \neg P
+      \quad\therefore\quad
+      \neg T.
+    \]
+  </div>
+
+  <p>
+    Secara logis, bentuk tersebut memang sah jika benar-benar hanya
+    <i>T</i> yang diperlukan untuk menghasilkan <i>P</i>. Namun dalam
+    eksperimen ilmiah yang sebenarnya, situasinya biasanya lebih kompleks.
+  </p>
+
+  <p>
+    Prediksi sering bergantung pada teori utama sekaligus sejumlah
+    asumsi tambahan:
+  </p>
+
+  <div class="math">
+    \[
+      T \land A_1 \land A_2 \land \cdots \land A_n
+      \Rightarrow P.
+    \]
+  </div>
+
+  <p>
+    Di sini:
+  </p>
+
+  <ul>
+    <li><b>T</b> = teori atau hipotesis utama,</li>
+    <li><b>A<sub>1</sub>, A<sub>2</sub>, ..., A<sub>n</sub></b> = asumsi pendukung,</li>
+    <li><b>P</b> = prediksi yang dapat dibandingkan dengan hasil pengamatan.</li>
+  </ul>
+
+  <p>
+    Jika eksperimen menghasilkan:
+  </p>
+
+  <div class="math">
+    \[
+      \neg P,
+    \]
+  </div>
+
+  <p>
+    maka kesimpulan logis yang paling aman adalah:
+  </p>
+
+  <div class="math">
+    \[
+      \neg
+      \left(
+      T \land A_1 \land A_2 \land \cdots \land A_n
+      \right).
+    \]
+  </div>
+
+  <p>
+    Kesimpulan tersebut berarti bahwa <b>setidaknya ada sesuatu yang tidak
+    benar dalam keseluruhan paket asumsi tersebut</b>. Akan tetapi, hasil
+    eksperimen itu sendiri belum menentukan apakah masalahnya terletak pada
+    <i>T</i>, salah satu <i>A<sub>i</sub></i>, atau kombinasi beberapa
+    asumsi tersebut.
+  </p>
+
+
+  <h2>3. Contoh Sederhana: Pengamatan Astronomi</h2>
+
+  <p>
+    Bayangkan seorang ilmuwan menggunakan suatu teori untuk menghitung posisi
+    sebuah planet. Perhitungan tersebut mungkin tidak hanya bergantung pada
+    teori utama, tetapi juga pada data massa benda langit, kondisi awal,
+    model orbit, parameter numerik, serta ketepatan instrumen pengamatan.
+  </p>
+
+  <p>
+    Secara skematis:
+  </p>
+
+  <div class="math">
+    \[
+      T
+      \land A_1
+      \land A_2
+      \land A_3
+      \land A_4
+      \Rightarrow
+      P.
+    \]
+  </div>
+
+  <p>
+    Ternyata hasil pengamatan tidak sama dengan prediksi:
+  </p>
+
+  <div class="math">
+    \[
+      \neg P.
+    \]
+  </div>
+
+  <p>
+    Kita tidak dapat langsung mengatakan:
+  </p>
+
+  <div class="math">
+    \[
+      \neg T.
+    \]
+  </div>
+
+  <p>
+    Mungkin teori utama memang bermasalah. Namun mungkin juga terdapat
+    kesalahan pada parameter, kondisi awal, model yang digunakan, atau
+    pengukuran. Bahkan bisa saja terdapat fenomena lain yang belum dimasukkan
+    ke dalam model.
+  </p>
+
+  <p>
+    Inilah inti persoalan Duhem–Quine:
+    <b>ketika prediksi gagal, eksperimen tidak selalu memberitahu kita secara
+    langsung bagian mana dari keseluruhan sistem yang harus disalahkan.</b>
+  </p>
+
+
+  <h2>4. Analogi Sederhana: Jaringan, Bukan Satu Benang</h2>
+
+  <p>
+    Agar gagasan ini mudah dipahami, bayangkan sebuah teori ilmiah sebagai
+    <b>jaringan</b>. Di dalam jaringan tersebut terdapat teori utama,
+    definisi, hukum, model matematika, kondisi awal, parameter, serta
+    berbagai asumsi pendukung.
+  </p>
+
+  <p>
+    Ketika hasil eksperimen tidak sesuai dengan prediksi, kita mengetahui
+    bahwa ada masalah dalam jaringan tersebut. Namun kita belum mengetahui
+    simpul mana yang harus diperbaiki.
+  </p>
+
+  <div class="math">
+    \[
+      \boxed{
+      \text{Teori}
+      +
+      \text{Asumsi}
+      +
+      \text{Model}
+      +
+      \text{Kondisi Awal}
+      +
+      \text{Pengukuran}
+      \longrightarrow
+      \text{Prediksi}
+      }
+    \]
+  </div>
+
+  <p>
+    Karena itu, respons ilmiah terhadap anomali bukan sekadar
+    <i>"teori salah"</i>, melainkan proses pemeriksaan terhadap seluruh
+    jaringan yang menghasilkan prediksi tersebut.
+  </p>
+
+
+  <h2>5. Hubungan dengan Falsifikasi Popper</h2>
+
+  <p>
+    Persoalan Duhem–Quine menjadi sangat menarik ketika kita hubungkan dengan
+    gagasan <b>falsifikasi Karl Popper</b>.
+  </p>
+
+  <p>
+    Dalam bentuk sederhana, falsifikasi dapat digambarkan:
+  </p>
+
+  <div class="math">
+    \[
+      T \Rightarrow P
+    \]
+
+    \[
+      \neg P
+    \]
+
+    \[
+      \therefore \neg T.
+    \]
+  </div>
+
+  <p>
+    Namun dalam eksperimen ilmiah yang sebenarnya, prediksi biasanya memiliki
+    bentuk:
+  </p>
+
+  <div class="math">
+    \[
+      T \land A_1 \land A_2 \land \cdots \land A_n
+      \Rightarrow P.
+    \]
+  </div>
+
+  <p>
+    Jika ternyata:
+  </p>
+
+  <div class="math">
+    \[
+      \neg P,
+    \]
+  </div>
+
+  <p>
+    maka yang secara langsung terkena masalah adalah keseluruhan konjungsi:
+  </p>
+
+  <div class="math">
+    \[
+      T \land A_1 \land A_2 \land \cdots \land A_n.
+    \]
+  </div>
+
+  <p>
+    Jadi, Duhem–Quine tidak harus dipahami sebagai penolakan terhadap
+    falsifikasi. Lebih tepat jika dipahami sebagai <b>peringatan bahwa
+    falsifikasi ilmiah dalam praktik membutuhkan analisis terhadap asumsi
+    pendukung</b>.
+  </p>
+
+
+  <h2>6. Apakah Ini Berarti Teori Tidak Pernah Bisa Difalsifikasi?</h2>
+
+  <p>
+    <b>Tidak.</b> Ini merupakan salah satu hal terpenting yang harus
+    diperhatikan.
+  </p>
+
+  <p>
+    Duhem–Quine tidak berarti bahwa seorang ilmuwan dapat selalu
+    mempertahankan teorinya dengan mengatakan bahwa asumsi lain yang salah.
+    Jika strategi tersebut dilakukan tanpa batas, maka hampir semua teori
+    dapat dibuat tampak tidak tersentuh oleh bukti empiris.
+  </p>
+
+  <p>
+    Dalam praktik ilmiah, berbagai pertimbangan dapat digunakan untuk
+    menentukan asumsi mana yang layak dipertahankan atau direvisi, misalnya:
+  </p>
+
+  <ul>
+    <li>apakah asumsi tersebut independen atau justru ad hoc;</li>
+    <li>apakah prediksi yang gagal dapat direproduksi;</li>
+    <li>apakah eksperimen lain mendukung teori tersebut;</li>
+    <li>apakah teori menghasilkan prediksi baru yang berhasil;</li>
+    <li>apakah terdapat penjelasan alternatif yang lebih baik;</li>
+    <li>apakah perubahan asumsi menghasilkan konsekuensi yang dapat diuji.</li>
+  </ul>
+
+  <p>
+    Dengan demikian, Duhem–Quine bukan alasan untuk
+    <b>menyelamatkan teori dengan segala cara</b>. Sebaliknya, ia mendorong
+    kita untuk melakukan diagnosis yang lebih hati-hati terhadap struktur
+    teori dan eksperimen.
+  </p>
+
+
+  <h2>7. Duhem–Quine dan Underdetermination</h2>
+
+  <p>
+    Persoalan ini kemudian berkaitan dengan konsep
+    <b>underdetermination of theory by evidence</b>, yaitu keadaan ketika
+    bukti empiris yang tersedia belum cukup untuk menentukan satu teori
+    secara unik.
+  </p>
+
+  <p>
+    Misalkan terdapat data empiris <i>D</i>. Bisa saja dua teori berbeda,
+    <i>T<sub>1</sub></i> dan <i>T<sub>2</sub></i>, sama-sama konsisten
+    dengan data tersebut:
+  </p>
+
+  <div class="math">
+    \[
+      T_1 \Rightarrow D
+    \]
+
+    \[
+      T_2 \Rightarrow D.
+    \]
+  </div>
+
+  <p>
+    Maka data <i>D</i> saja belum tentu cukup untuk menentukan apakah
+    <i>T<sub>1</sub></i> atau <i>T<sub>2</sub></i> yang harus diterima.
+  </p>
+
+  <p>
+    Ilmuwan kemudian membutuhkan bukti tambahan, misalnya eksperimen baru
+    yang menghasilkan prediksi berbeda dari kedua teori tersebut.
+  </p>
+
+  <div class="math">
+    \[
+      T_1 \Rightarrow P_1,
+      \qquad
+      T_2 \Rightarrow P_2,
+      \qquad
+      P_1 \neq P_2.
+    \]
+  </div>
+
+  <p>
+    Eksperimen baru dapat memberikan informasi yang sebelumnya belum tersedia
+    sehingga ruang kemungkinan teori menjadi lebih sempit.
+  </p>
+
+
+  <h2>8. Contoh dalam Ilmu Modern</h2>
+
+  <p>
+    Dalam ilmu modern, situasi Duhem–Quine dapat muncul ketika suatu prediksi
+    bergantung pada banyak komponen sekaligus. Misalnya, dalam eksperimen
+    fisika, hasil pengukuran dapat bergantung pada teori yang digunakan,
+    model matematis, nilai parameter, kondisi eksperimen, kalibrasi alat,
+    serta prosedur analisis data.
+  </p>
+
+  <p>
+    Jika hasil eksperimen berbeda dari prediksi, ilmuwan harus memeriksa
+    keseluruhan rantai tersebut. Karena itu, <b>eksperimen bukan sekadar
+    mesin yang mengeluarkan label "benar" atau "salah"</b>. Eksperimen
+    memberikan kendala empiris terhadap suatu sistem penjelasan.
+  </p>
+
+
+  <h2>9. Hubungan dengan Kuhn</h2>
+
+  <p>
+    Gagasan Duhem–Quine juga membantu memahami mengapa pembahasan tentang
+    <b>Thomas Kuhn</b> menjadi relevan.
+  </p>
+
+  <p>
+    Dalam kerangka Kuhn, ilmu normal bekerja dalam suatu paradigma.
+    Ketika muncul hasil yang tidak sesuai dengan harapan, hasil tersebut
+    tidak selalu langsung menyebabkan paradigma ditolak. Anomali dapat
+    diselidiki, ditafsirkan kembali, atau ditangani melalui pengembangan
+    teori dan metode.
+  </p>
+
+  <p>
+    Di sini terdapat kemiripan penting dengan persoalan Duhem–Quine:
+    <b>anomali tidak secara otomatis menentukan bagian mana dari sistem
+    ilmiah yang harus ditolak.</b>
+  </p>
+
+  <p>
+    Namun keduanya bukan teori yang sama. Duhem–Quine terutama merupakan
+    persoalan logis dan epistemologis mengenai pengujian teori, sedangkan
+    Kuhn juga membahas sejarah dan dinamika komunitas ilmiah serta perubahan
+    paradigma.
+  </p>
+
+
+  <h2>10. Hubungan dengan Lakatos</h2>
+
+  <p>
+    Gagasan <b>Imre Lakatos</b> juga dapat dipahami lebih mudah setelah
+    memahami Duhem–Quine.
+  </p>
+
+  <p>
+    Lakatos memandang perkembangan ilmu melalui
+    <b>research programmes</b>. Suatu program riset tidak hanya terdiri dari
+    satu hipotesis tunggal, tetapi memiliki struktur teoritis yang lebih
+    luas.
+  </p>
+
+  <p>
+    Ketika muncul masalah empiris, ilmuwan tidak serta-merta membuang seluruh
+    program. Mereka dapat mengubah atau mengembangkan bagian tertentu dari
+    sistem tersebut.
+  </p>
+
+  <p>
+    Dengan demikian, secara pedagogis kita dapat melihat hubungan berikut:
+  </p>
+
+  <div class="math">
+    \[
+      \boxed{
+      \text{Popper}
+      \rightarrow
+      \text{Duhem--Quine}
+      \rightarrow
+      \text{Kuhn}
+      \rightarrow
+      \text{Lakatos}
+      }
+    \]
+  </div>
+
+  <p>
+    Urutan tersebut bukan berarti bahwa pemikiran mereka merupakan satu teori
+    tunggal yang berkembang secara linear. Urutan tersebut lebih berguna
+    sebagai <b>peta pembelajaran</b> untuk melihat bagaimana persoalan
+    pengujian teori berkembang dalam filsafat ilmu.
+  </p>
+
+
+  <h2>11. Duhem–Quine dalam Bentuk Logika</h2>
+
+  <p>
+    Mari kita lihat struktur logisnya secara lebih jelas.
+  </p>
+
+  <p>
+    Misalkan:
+  </p>
+
+  <div class="math">
+    \[
+      H = T \land A_1 \land A_2 \land \cdots \land A_n.
+    \]
+  </div>
+
+  <p>
+    Sistem hipotesis <i>H</i> menghasilkan prediksi:
+  </p>
+
+  <div class="math">
+    \[
+      H \Rightarrow P.
+    \]
+  </div>
+
+  <p>
+    Eksperimen menghasilkan:
+  </p>
+
+  <div class="math">
+    \[
+      \neg P.
+    \]
+  </div>
+
+  <p>
+    Maka secara logis:
+  </p>
+
+  <div class="math">
+    \[
+      \neg H.
+    \]
+  </div>
+
+  <p>
+    Karena:
+  </p>
+
+  <div class="math">
+    \[
+      H =
+      T \land A_1 \land A_2 \land \cdots \land A_n,
+    \]
+  </div>
+
+  <p>
+    kita hanya mengetahui bahwa <b>keseluruhan sistem H bermasalah</b>.
+    Logika tersebut belum memberi tahu kita secara otomatis apakah:
+  </p>
+
+  <div class="math">
+    \[
+      \neg T,
+    \]
+  </div>
+
+  <p>
+  atau:
+  </p>
+
+  <div class="math">
+    \[
+      \neg A_1,\quad
+      \neg A_2,\quad \ldots,\quad
+      \neg A_n.
+  \]
+  </div>
+
+  <p>
+    Inilah salah satu bentuk paling sederhana untuk memahami
+    <b>masalah Duhem–Quine</b>.
+  </p>
+
+
+  <h2>12. Kesalahan Penalaran yang Perlu Dihindari</h2>
+
+  <p>
+    Perhatikan argumen berikut:
+  </p>
+
+  <div class="math">
+    \[
+      T \land A \Rightarrow P
+    \]
+
+    \[
+      \neg P
+    \]
+
+    \[
+      \therefore \neg T.
+    \]
+  </div>
+
+  <p>
+    Kesimpulan tersebut terlalu cepat. Dari premis-premis tersebut kita
+    mengetahui bahwa:
+  </p>
+
+  <div class="math">
+    \[
+      \neg(T\land A),
+    \]
+  </div>
+
+  <p>
+    tetapi belum dapat menentukan apakah:
+  </p>
+
+  <div class="math">
+    \[
+      \neg T
+    \]
+  </div>
+
+  <p>
+    atau:
+  </p>
+
+  <div class="math">
+    \[
+      \neg A.
+    \]
+  </div>
+
+  <p>
+    Oleh karena itu, dalam filsafat ilmu kita perlu membedakan antara
+    <b>deteksi adanya masalah</b> dan <b>identifikasi sumber masalah</b>.
+  </p>
+
+
+  <h2>13. Pelajaran Epistemologis</h2>
+
+  <p>
+    Duhem–Quine memberikan pelajaran penting tentang bagaimana pengetahuan
+    ilmiah berkembang. Pengetahuan ilmiah tidak hanya terdiri atas kumpulan
+    fakta yang berdiri sendiri, tetapi merupakan sistem yang saling
+    berhubungan antara teori, konsep, model, matematika, data, instrumen,
+    dan metode.
+  </p>
+
+  <p>
+    Oleh sebab itu, ketika bukti baru muncul, respons ilmiah yang rasional
+    bukanlah sekadar mempertahankan teori ataupun langsung membuangnya.
+    Yang diperlukan adalah <b>evaluasi terhadap struktur keseluruhan yang
+    menghasilkan prediksi tersebut</b>.
+  </p>
+
+  <p>
+    Dari sudut pandang ini, ilmu pengetahuan dapat dipandang sebagai proses
+    <b>koreksi diri</b>:
+  </p>
+
+  <div class="math">
+    \[
+      \text{Teori}
+      \rightarrow
+      \text{Prediksi}
+      \rightarrow
+      \text{Observasi}
+      \rightarrow
+      \text{Anomali}
+      \rightarrow
+      \text{Evaluasi}
+      \rightarrow
+      \text{Revisi}
+      \rightarrow
+      \text{Prediksi Baru}.
+    \]
+  </div>
+
+
+  <h2>14. Inti Duhem–Quine</h2>
+
+  <div class="definition-container">
+
+    <div class="definition-header">
+      <span><b>Kesimpulan Utama</b></span>
+    </div>
+
+    <div class="definition-box">
+
+      <p>
+        <b>Duhem–Quine</b> menunjukkan bahwa hipotesis ilmiah pada umumnya
+        tidak diuji secara terisolasi. Sebuah prediksi biasanya bergantung
+        pada teori utama bersama dengan asumsi tambahan, model, kondisi awal,
+        dan unsur-unsur lain yang terlibat dalam eksperimen.
+      </p>
+
+      <p>
+        Karena itu, ketika prediksi gagal, hasil tersebut tidak selalu
+        menentukan secara langsung bahwa teori utama salah. Yang pertama-tama
+        diketahui adalah bahwa <b>keseluruhan kumpulan asumsi yang digunakan
+        untuk menghasilkan prediksi tersebut menghadapi masalah</b>.
+      </p>
+
+      <p>
+        Persoalan inilah yang kemudian berhubungan dengan perdebatan mengenai
+        <b>falsifikasi, underdetermination, Kuhn, dan Lakatos</b>.
+      </p>
+
+    </div>
+
+  </div>
+
+
+  <h2>15. Pertanyaan Kritis untuk Diskusi</h2>
+
+  <ol>
+
+    <li>
+      Jika eksperimen gagal memberikan hasil yang diprediksi oleh teori,
+      apakah kita boleh langsung menyimpulkan bahwa teori tersebut salah?
+      Jelaskan berdasarkan Duhem–Quine.
+    </li>
+
+    <li>
+      Apa perbedaan antara pernyataan
+      <i>"teori salah"</i> dan
+      <i>"sistem asumsi yang digunakan untuk menghasilkan prediksi
+      mengalami masalah"</i>?
+    </li>
+
+    <li>
+      Apakah Duhem–Quine bertentangan dengan falsifikasi Popper,
+      atau justru membuat konsep falsifikasi menjadi lebih realistis?
+    </li>
+
+    <li>
+      Jika dua teori dapat menjelaskan data empiris yang sama, apakah data
+      tersebut cukup untuk menentukan teori mana yang benar?
+    </li>
+
+    <li>
+      Kapan mempertahankan teori setelah muncul anomali merupakan tindakan
+      ilmiah yang rasional, dan kapan hal tersebut berubah menjadi usaha
+      menyelamatkan teori secara <i>ad hoc</i>?
+    </li>
+
+  </ol>
+
+
+  <div class="important-box">
+
+    <h3>Gagasan yang Perlu Diingat</h3>
+
+    <p>
+      <b>
+        Eksperimen yang gagal tidak selalu memberi tahu kita
+        "teori mana yang salah"; eksperimen memberi tahu bahwa
+        ada sesuatu yang perlu diperiksa dalam keseluruhan sistem
+        teori dan asumsi yang menghasilkan prediksi tersebut.
+      </b>
+    </p>
+
+    <p>
+      Inilah alasan Duhem–Quine penting dalam filsafat ilmu:
+      ia mengajarkan kita untuk tidak menyamakan secara tergesa-gesa
+      antara <b>anomali empiris</b>, <b>falsity suatu teori</b>, dan
+      <b>kesalahan dalam suatu asumsi pendukung</b>.
+    </p>
+
+  </div>
+
+</section>
+
+<!-- =========================================================
+     CONTOH MATEMATIKA: DUHEM–QUINE
+     ========================================================= -->
+
+<section class="page">
+
+  <h1>Contoh Matematika untuk Memahami Duhem–Quine</h1>
+
+  <p align="justify" class="intro-dropcap">
+    Gagasan Duhem–Quine tidak hanya relevan dalam fisika atau ilmu empiris.
+    Struktur penalarannya dapat dipahami dengan sangat jelas melalui contoh
+    matematika. Contoh-contoh berikut tidak dimaksudkan untuk mengatakan bahwa
+    matematika murni bekerja persis seperti ilmu empiris, melainkan sebagai
+    analogi logis untuk memperlihatkan bagaimana sebuah kesimpulan dapat
+    bergantung pada beberapa asumsi sekaligus.
+  </p>
+
+
+  <h2>1. Contoh: Persamaan Linear</h2>
+
+  <p>
+    Misalkan kita mempunyai persamaan:
+  </p>
+
+  <div class="math">
+    \[
+      2x+3=7.
+    \]
+  </div>
+
+  <p>
+    Dengan menggunakan operasi aljabar yang benar, diperoleh:
+  </p>
+
+  <div class="math">
+    \[
+      2x=4
+      \quad\Rightarrow\quad
+      x=2.
+    \]
+  </div>
+
+  <p>
+    Sekarang bayangkan seseorang melakukan pemeriksaan dan menemukan bahwa
+    nilai yang digunakan dalam perhitungan menghasilkan:
+  </p>
+
+  <div class="math">
+    \[
+      x=3.
+    \]
+  </div>
+
+  <p>
+    Apakah kita langsung menyimpulkan bahwa teori dasar aljabar salah?
+    Tentu tidak. Kita harus memeriksa keseluruhan proses:
+  </p>
+
+  <ul>
+    <li>apakah persamaannya benar?</li>
+    <li>apakah angka 3 dan 7 ditulis dengan benar?</li>
+    <li>apakah operasi pengurangan dilakukan dengan benar?</li>
+    <li>apakah operasi pembagian dilakukan dengan benar?</li>
+    <li>apakah nilai yang diperiksa memang merupakan solusi persamaan?</li>
+  </ul>
+
+  <p>
+    Jadi, kegagalan hasil tidak otomatis menunjukkan bahwa prinsip aljabar
+    yang digunakan adalah salah. Bisa saja terdapat kesalahan pada salah satu
+    langkah pendukung.
+  </p>
+
+  <p>
+    Secara konseptual, struktur tersebut menyerupai:
+  </p>
+
+  <div class="math">
+    \[
+      \boxed{
+      \text{Teori}
+      +
+      \text{Asumsi}
+      +
+      \text{Prosedur}
+      \longrightarrow
+      \text{Kesimpulan}
+      }
+    \]
+  </div>
+
+
+  <h2>2. Contoh: Geometri dan Pengukuran</h2>
+
+  <p>
+    Pertimbangkan pernyataan geometri:
+  </p>
+
+  <div class="math">
+    \[
+      \text{Jumlah sudut dalam segitiga}=180^\circ.
+    \]
+  </div>
+
+  <p>
+    Pernyataan tersebut benar dalam <b>geometri Euclidean</b>. Tetapi
+    penerapannya pada suatu objek nyata memerlukan asumsi tambahan.
+    Misalnya, kita menggambar sebuah segitiga pada kertas dan mengukur
+    ketiga sudutnya.
+  </p>
+
+  <p>
+    Secara teoritis:
+  </p>
+
+  <div class="math">
+    \[
+      A+B+C=180^\circ.
+    \]
+  </div>
+
+  <p>
+    Misalkan hasil pengukuran memberikan:
+  </p>
+
+  <div class="math">
+    \[
+      A+B+C=181.2^\circ.
+    \]
+  </div>
+
+  <p>
+    Apakah hal tersebut membuktikan bahwa teorema geometri Euclidean salah?
+    Tidak. Kita harus mempertimbangkan beberapa kemungkinan:
+  </p>
+
+  <ul>
+    <li>alat ukur mempunyai ketidakpastian;</li>
+    <li>garis yang digambar tidak benar-benar ideal;</li>
+    <li>pembacaan busur derajat memiliki kesalahan;</li>
+    <li>objek yang diukur bukan representasi matematis yang sempurna;</li>
+    <li>atau asumsi geometris yang digunakan tidak sesuai dengan konteks.</li>
+  </ul>
+
+  <p>
+    Di sini terlihat perbedaan antara <b>objek matematika ideal</b> dan
+    <b>pengukuran objek fisik</b>. Teorema matematika tidak secara langsung
+    identik dengan hasil pengukuran empiris terhadap benda nyata.
+  </p>
+
+  <div class="important-box">
+
+    <p>
+      <b>Pelajaran:</b> ketika matematika digunakan untuk memodelkan dunia
+      nyata, terdapat lapisan tambahan antara teori matematika dan data
+      empiris. Lapisan tersebut dapat berupa model, asumsi, parameter,
+      pendekatan, dan prosedur pengukuran.
+    </p>
+
+  </div>
+
+
+  <h2>3. Contoh: Model Matematika dalam Fisika</h2>
+
+  <p>
+    Misalkan sebuah benda jatuh bebas dimodelkan dengan persamaan:
+  </p>
+
+  <div class="math">
+    \[
+      s(t)=\frac{1}{2}gt^2,
+    \]
+  </div>
+
+  <p>
+    dengan asumsi bahwa benda mulai dari keadaan diam dan hambatan udara
+    diabaikan.
+  </p>
+
+  <p>
+    Jika:
+  </p>
+
+  <div class="math">
+    \[
+      g=9.8\ {\rm m/s^2},
+      \qquad
+      t=2\ {\rm s},
+    \]
+  </div>
+
+  <p>
+    maka model memberikan:
+  </p>
+
+  <div class="math">
+    \[
+      s(2)
+      =
+      \frac{1}{2}(9.8)(2)^2
+      =
+      19.6\ {\rm m}.
+    \]
+  </div>
+
+  <p>
+    Sekarang eksperimen menghasilkan jarak, misalnya, berbeda dari
+    \(19.6\) meter. Apakah persamaan:
+  </p>
+
+  <div class="math">
+    \[
+      s(t)=\frac{1}{2}gt^2
+    \]
+  </div>
+
+  <p>
+    langsung terbukti salah?
+  </p>
+
+  <p>
+    Belum tentu. Prediksi tersebut bergantung pada beberapa asumsi:
+  </p>
+
+  <div class="math">
+    \[
+      \boxed{
+      \begin{aligned}
+      &\text{persamaan gerak}
+      \\
+      &+\text{nilai }g
+      \\
+      &+\text{kondisi awal}
+      \\
+      &+\text{hambatan udara diabaikan}
+      \\
+      &+\text{model benda}
+      \\
+      &+\text{ketepatan pengukuran}
+      \end{aligned}
+      }
+    \]
+  </div>
+
+  <p>
+    Jika hasil eksperimen berbeda, kita harus menentukan bagian mana dari
+    keseluruhan model yang perlu diperiksa.
+  </p>
+
+  <p>
+    Inilah bentuk konkret dari persoalan Duhem–Quine ketika matematika
+    digunakan sebagai bagian dari model ilmiah.
+  </p>
+
+
+  <h2>4. Contoh: Statistik dan Hipotesis</h2>
+
+  <p>
+    Contoh yang lebih dekat dengan penelitian adalah pengujian hipotesis
+    statistik.
+  </p>
+
+  <p>
+    Misalkan seorang peneliti ingin menguji apakah rata-rata populasi
+    memenuhi:
+  </p>
+
+  <div class="math">
+    \[
+      H_0:\mu=100.
+    \]
+  </div>
+
+  <p>
+    Peneliti memperoleh data sampel dan menggunakan suatu prosedur pengujian.
+    Hasil akhirnya menunjukkan bahwa data tidak konsisten dengan
+    \(H_0\) pada tingkat signifikansi yang telah ditentukan.
+  </p>
+
+  <p>
+    Secara hati-hati, hasil tersebut tidak berarti bahwa kita telah
+    membuktikan secara mutlak:
+  </p>
+
+  <div class="math">
+    \[
+      \mu\neq100.
+    \]
+  </div>
+
+  <p>
+    Kita harus melihat asumsi yang digunakan dalam analisis, misalnya:
+  </p>
+
+  <ul>
+    <li>bagaimana sampel diperoleh;</li>
+    <li>apakah sampel mewakili populasi;</li>
+    <li>apakah observasi independen;</li>
+    <li>apakah model probabilitas yang digunakan sesuai;</li>
+    <li>apakah metode pengujian sesuai dengan struktur data;</li>
+    <li>apakah terdapat bias pengukuran.</li>
+  </ul>
+
+  <p>
+    Jadi, hasil statistik merupakan bagian dari jaringan penalaran yang
+    lebih luas. Hal ini memperlihatkan mengapa dalam penelitian empiris
+    kita harus berhati-hati ketika menarik kesimpulan hanya dari satu
+    hasil analisis.
+  </p>
+
+
+  <h2>5. Contoh: Regresi Linear</h2>
+
+  <p>
+    Misalkan kita menggunakan model regresi:
+  </p>
+
+  <div class="math">
+    \[
+      Y=\beta_0+\beta_1X+\varepsilon.
+    \]
+  </div>
+
+  <p>
+    Peneliti mungkin menemukan bahwa koefisien \(\beta_1\) tidak signifikan.
+    Apakah ini langsung berarti bahwa <i>X tidak mempunyai hubungan</i>
+    dengan <i>Y</i>?
+  </p>
+
+  <p>
+    Kesimpulan tersebut perlu diperiksa dengan hati-hati. Model regresi
+    bergantung pada berbagai asumsi dan keputusan pemodelan, misalnya:
+  </p>
+
+  <ul>
+    <li>bentuk hubungan yang digunakan;</li>
+    <li>variabel yang dimasukkan ke dalam model;</li>
+    <li>cara variabel diukur;</li>
+    <li>ukuran dan kualitas sampel;</li>
+    <li>struktur galat;</li>
+    <li>potensi variabel perancu;</li>
+    <li>spesifikasi model.</li>
+  </ul>
+
+  <p>
+    Jika hasil penelitian tidak sesuai dengan hipotesis awal, masalahnya
+    dapat terletak pada hipotesis utama, tetapi juga dapat terletak pada
+    model atau asumsi yang digunakan.
+  </p>
+
+  <p>
+    Ini bukan berarti semua kesimpulan statistik menjadi tidak bermakna.
+    Justru sebaliknya, hal tersebut menunjukkan pentingnya
+    <b>pemeriksaan robustness</b>, analisis alternatif, dan replikasi.
+  </p>
+
+
+  <h2>6. Contoh: Teorema Matematika dan Asumsi</h2>
+
+  <p>
+    Ada contoh yang sangat penting untuk membedakan antara matematika murni
+    dan ilmu empiris.
+  </p>
+
+  <p>
+    Dalam matematika, sebuah teorema biasanya mempunyai bentuk:
+  </p>
+
+  <div class="math">
+    \[
+      A_1\land A_2\land\cdots\land A_n
+      \Rightarrow
+      T.
+    \]
+  </div>
+
+  <p>
+    Jika semua asumsi \(A_1,\ldots,A_n\) benar dalam sistem aksiomatik yang
+    digunakan dan pembuktiannya valid, maka kesimpulan \(T\) mengikuti
+    secara deduktif.
+  </p>
+
+  <p>
+    Misalnya teorema Pythagoras berlaku dalam geometri Euclidean untuk
+    segitiga siku-siku:
+  </p>
+
+  <div class="math">
+    \[
+      a^2+b^2=c^2.
+    \]
+  </div>
+
+  <p>
+    Tetapi jika kita berpindah ke geometri non-Euclidean, struktur geometrinya
+    berubah. Karena itu, penting membedakan:
+  </p>
+
+  <div class="math">
+    \[
+      \boxed{
+      \text{Teorema}
+      =
+      \text{Kesimpulan yang mengikuti dari asumsi tertentu}
+      }
+    \]
+  </div>
+
+  <p>
+    Ini membantu mahasiswa memahami bahwa <b>validitas suatu kesimpulan
+    selalu terkait dengan premis atau struktur yang digunakan</b>.
+  </p>
+
+  <div class="important-box">
+
+    <p>
+      <b>Catatan penting:</b> contoh matematika murni di sini adalah
+      <i>analogi struktural</i> untuk memahami Duhem–Quine. Jangan
+      menyimpulkan bahwa pembuktian matematis dan pengujian empiris identik.
+      Dalam matematika, konsekuensi deduktif dari aksioma dan aturan inferensi
+      mempunyai status yang berbeda dari prediksi empiris yang bergantung
+      pada pengukuran dan model dunia nyata.
+    </p>
+
+  </div>
+
+
+  <h2>7. Contoh: Algoritma dan Hasil Komputasi</h2>
+
+  <p>
+    Dalam matematika komputasi kita juga dapat membuat analogi yang menarik.
+    Misalkan suatu algoritma dirancang untuk menghitung:
+  </p>
+
+  <div class="math">
+    \[
+      f(x)=x^2+2x+1.
+    \]
+  </div>
+
+  <p>
+    Secara matematis:
+  </p>
+
+  <div class="math">
+    \[
+      f(x)=(x+1)^2.
+    \]
+  </div>
+
+  <p>
+    Untuk \(x=3\), hasil yang benar adalah:
+  </p>
+
+  <div class="math">
+    \[
+      f(3)=16.
+    \]
+  </div>
+
+  <p>
+    Jika program menghasilkan \(25\), kita tidak langsung menyimpulkan
+    bahwa identitas:
+  </p>
+
+  <div class="math">
+    \[
+      x^2+2x+1=(x+1)^2
+    \]
+  </div>
+
+  <p>
+    adalah salah.
+  </p>
+
+  <p>
+    Kita harus memeriksa keseluruhan rantai:
+  </p>
+
+  <div class="math">
+    \[
+      \boxed{
+      \text{Formula}
+      +
+      \text{algoritma}
+      +
+      \text{implementasi}
+      +
+      \text{input}
+      +
+      \text{representasi data}
+      \rightarrow
+      \text{output}
+      }
+    \]
+  </div>
+
+  <p>
+    Kesalahan dapat berasal dari formula yang salah, algoritma yang salah,
+    implementasi program, input, atau representasi data.
+  </p>
+
+  <p>
+    Analogi ini sangat berguna untuk memperkenalkan gagasan bahwa suatu
+    <b>hasil yang salah tidak selalu mengidentifikasi sumber kesalahan
+    secara otomatis</b>.
+  </p>
+
+
+  <h2>8. Contoh yang Lebih Dekat dengan Pemodelan Matematika</h2>
+
+  <p>
+    Misalkan kita ingin memprediksi jumlah populasi menggunakan model:
+  </p>
+
+  <div class="math">
+    \[
+      P(t)=P_0e^{rt}.
+    \]
+  </div>
+
+  <p>
+    Model tersebut bergantung pada asumsi bahwa laju pertumbuhan relatif
+    \(r\) konstan dan bahwa faktor-faktor lain yang relevan dapat diabaikan
+    dalam rentang waktu yang sedang dipelajari.
+  </p>
+
+  <p>
+    Jika data aktual berbeda jauh dari prediksi, terdapat beberapa
+    kemungkinan:
+  </p>
+
+  <ol>
+    <li>model eksponensial tidak sesuai;</li>
+    <li>nilai \(r\) yang digunakan tidak tepat;</li>
+    <li>nilai awal \(P_0\) tidak tepat;</li>
+    <li>data pengamatan mengandung masalah;</li>
+    <li>asumsi laju pertumbuhan konstan tidak sesuai;</li>
+    <li>terdapat faktor eksternal yang tidak dimasukkan dalam model.</li>
+  </ol>
+
+  <p>
+    Dengan demikian:
+  </p>
+
+  <div class="math">
+    \[
+      \text{Prediksi gagal}
+      \not\Rightarrow
+      \text{model utama pasti salah}.
+    \]
+  </div>
+
+  <p>
+    Bentuk yang lebih tepat adalah:
+  </p>
+
+  <div class="math">
+    \[
+      \text{Prediksi gagal}
+      \Rightarrow
+      \text{periksa keseluruhan asumsi dan model}.
+    \]
+  </div>
+
+
+  <h2>9. Dari Contoh Matematika Menuju Ilmu Empiris</h2>
+
+  <p>
+    Dari berbagai contoh di atas kita dapat melihat sebuah pola umum.
+  </p>
+
+  <div class="math">
+    \[
+    \boxed{
+    \begin{aligned}
+    &\text{Teori / hipotesis utama}\\
+    &+\text{asumsi pendukung}\\
+    &+\text{model matematika}\\
+    &+\text{kondisi awal}\\
+    &+\text{prosedur}\\
+    &+\text{pengukuran}\\
+    &\Downarrow\\
+    &\text{Prediksi}
+    \end{aligned}
+    }
+    \]
+  </div>
+
+  <p>
+    Jika prediksi tidak sesuai dengan kenyataan:
+  </p>
+
+  <div class="math">
+    \[
+      \boxed{
+      \text{Anomali}
+      \neq
+      \text{identifikasi otomatis sumber kesalahan}
+      }
+    \]
+  </div>
+
+  <p>
+    Inilah alasan mengapa filsafat ilmu tidak berhenti pada pertanyaan
+    <i>"Apakah teori ini benar?"</i>. Filsafat ilmu juga bertanya:
+  </p>
+
+  <ul>
+    <li>Bagaimana teori tersebut diuji?</li>
+    <li>Asumsi apa yang diperlukan agar prediksinya muncul?</li>
+    <li>Apa yang sebenarnya diuji oleh eksperimen?</li>
+    <li>Jika prediksi gagal, bagian mana yang perlu direvisi?</li>
+    <li>Apakah terdapat teori alternatif yang juga konsisten dengan data?</li>
+    <li>Bagaimana kita membedakan revisi ilmiah dari sekadar penyelamatan teori?</li>
+  </ul>
+
+
+  <h2>10. Duhem–Quine dan Cara Berpikir Kritis</h2>
+
+  <p>
+    Dari sudut pandang pendidikan, nilai penting Duhem–Quine bukan hanya
+    pada istilah filosofisnya, tetapi pada cara berpikir yang ditanamkannya.
+  </p>
+
+  <p>
+    Ketika menemukan hasil yang bertentangan dengan harapan, kita tidak
+    seharusnya langsung bertanya:
+  </p>
+
+  <div class="important-box">
+
+    <p>
+      <b>"Siapa atau teori mana yang salah?"</b>
+    </p>
+
+  </div>
+
+  <p>
+    Pertanyaan yang lebih baik adalah:
+  </p>
+
+  <div class="important-box">
+
+    <p>
+      <b>
+        "Asumsi apa saja yang digunakan untuk menghasilkan kesimpulan ini,
+        dan bagian mana yang sebenarnya didukung atau tidak didukung oleh
+        bukti?"
+      </b>
+    </p>
+
+  </div>
+
+  <p>
+    Inilah bentuk <b>nalar kritis</b> yang sangat penting dalam matematika,
+    sains, dan penelitian.
+  </p>
+
+
+  <h2>11. Ringkasan Konseptual</h2>
+
+  <table class="comparison-table">
+
+    <thead>
+      <tr>
+        <th>Pendekatan</th>
+        <th>Gagasan Utama</th>
+      </tr>
+    </thead>
+
+    <tbody>
+
+      <tr>
+        <td><b>Falsifikasi sederhana</b></td>
+        <td>
+          Jika teori menghasilkan prediksi yang gagal, teori tampaknya
+          terkena falsifikasi.
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>Duhem–Quine</b></td>
+        <td>
+          Prediksi biasanya bergantung pada teori dan sejumlah asumsi
+          pendukung, sehingga kegagalan prediksi tidak otomatis menunjuk
+          teori utama sebagai satu-satunya sumber kesalahan.
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>Underdetermination</b></td>
+        <td>
+          Bukti yang tersedia dapat belum cukup untuk menentukan satu teori
+          secara unik.
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>Kuhn</b></td>
+        <td>
+          Anomali dapat muncul dalam ilmu normal dan tidak selalu langsung
+          menyebabkan perubahan paradigma.
+        </td>
+      </tr>
+
+      <tr>
+        <td><b>Lakatos</b></td>
+        <td>
+          Evaluasi teori dapat dilakukan dalam konteks program riset yang
+          berkembang, bukan hanya satu hipotesis terisolasi.
+        </td>
+      </tr>
+
+    </tbody>
+
+  </table>
+
+
+  <h2>12. Kesimpulan</h2>
+
+  <p>
+    Contoh matematika membantu kita melihat struktur dasar persoalan
+    Duhem–Quine secara lebih konkret. Sebuah kesimpulan sering kali tidak
+    berdiri sendiri, tetapi bergantung pada sejumlah premis, asumsi, model,
+    atau prosedur.
+  </p>
+
+  <p>
+    Dalam matematika murni, hubungan tersebut terutama bersifat
+    <b>deduktif</b>: jika asumsi dan aturan inferensi diterima, maka
+    kesimpulan mengikuti secara logis. Dalam ilmu empiris, terdapat lapisan
+    tambahan berupa <b>pengamatan, pengukuran, model, dan kondisi dunia
+    nyata</b>.
+  </p>
+
+  <p>
+    Karena itu, ketika prediksi ilmiah gagal, kesimpulan yang paling hati-hati
+    bukanlah langsung mengatakan:
+  </p>
+
+  <div class="math">
+    \[
+      \boxed{\text{"Teori pasti salah"}}
+    \]
+  </div>
+
+  <p>
+    melainkan:
+  </p>
+
+  <div class="math">
+    \[
+      \boxed{
+      \text{"Ada bagian dari keseluruhan sistem teori--asumsi--model
+      yang perlu diperiksa."}
+      }
+    \]
+  </div>
+
+  <p>
+    Inilah kontribusi penting Duhem–Quine bagi filsafat ilmu:
+    <b>mengajarkan bahwa pengujian ilmiah adalah pengujian terhadap suatu
+    jaringan penalaran, bukan sekadar satu proposisi yang berdiri sendirian.</b>
+  </p>
+
+</section>
+
+<hr>
+<br>
 
 
 <p align="justify">
