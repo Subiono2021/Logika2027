@@ -433,6 +433,82 @@
     text-align: justify;
     box-shadow: 0 2px 8px rgba(0,0,0,0.05);
 }
+
+
+.container {
+            max-width: 600px;
+            width: 100%;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+        }
+        h2 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            font-size: 22px;
+        }
+        .flow-chart {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        .node {
+            background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 8px;
+            box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+            transition: transform 0.2s ease;
+        }
+        .node:hover {
+            transform: translateY(-2px);
+        }
+        .node h3 {
+            margin: 0 0 5px 0;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .node p {
+            margin: 0;
+            font-size: 13px;
+            opacity: 0.9;
+        }
+        .arrow-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            margin: -5px 0;
+        }
+        .arrow {
+            width: 2px;
+            height: 25px;
+            background-color: #3498db;
+        }
+        .arrow::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            border-width: 6px 6px 0 6px;
+            border-style: solid;
+            border-color: #3498db transparent transparent transparent;
+        }
+        .critique-label {
+            font-size: 11px;
+            background: #eef2f7;
+            color: #555;
+            padding: 3px 8px;
+            border-radius: 12px;
+            margin: 2px 0;
+            border: 1px solid #d1d8e0;
+            text-align: center;
+        }
 	
 </style>
    
@@ -3004,19 +3080,55 @@ Karena itu, menilai falsiti tidak cukup hanya dengan merasa bahwa sesuatu “tid
     Dengan demikian, secara pedagogis kita dapat melihat hubungan berikut:
   </p>
 
-  <div class="math">
-    \[
-      \boxed{
-      \text{Popper}
-      \rightarrow
-      \text{Duhem--Quine}
-      \rightarrow
-      \text{Kuhn}
-      \rightarrow
-      \text{Lakatos}
-      }
-    \]
-  </div>
+  
+<center>
+<div class="container">
+    <h2>Evolusi Filsafat Sains</h2>
+    <div class="flow-chart">
+        <!-- Node 1 -->
+        <div class="node">
+            <h3>1. Karl Popper <span>[Falsifikasionisme]</span></h3>
+            <p>Sains maju lewat upaya penyangkalan (falsifikasi) atas hipotesis.</p>
+        </div>
+
+        <!-- Arrow & Critique 1 -->
+        <div class="arrow-container">
+            <span class="critique-label">Kritik: Pengujian tidak pernah terisolasi</span>
+            <div class="arrow"></div>
+        </div>
+
+        <!-- Node 2 -->
+        <div class="node" style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);">
+            <h3>2. Duhem–Quine <span>[Holisme Konfirmasi]</span></h3>
+            <p>Teori diuji bersama asumsi latar belakang; gagal eksperimen belum tentu teori salah.</p>
+        </div>
+
+        <!-- Arrow & Critique 2 -->
+        <div class="arrow-container">
+            <span class="critique-label">Kritik: Sains bergerak lewat perubahan kerangka/paradigma</span>
+            <div class="arrow"></div>
+        </div>
+
+        <!-- Node 3 -->
+        <div class="node" style="background: linear-gradient(135deg, #f2994a 0%, #f2c94c 100%);">
+            <h3>3. Thomas Kuhn <span>[Revolusi & Paradigma]</span></h3>
+            <p>Sains normal bergeser menjadi krisis hingga terjadi revolusi ilmiah.</p>
+        </div>
+
+        <!-- Arrow & Critique 3 -->
+        <div class="arrow-container">
+            <span class="critique-label">Kritik: Butuh sistem pertahanan teori yang terstruktur</span>
+            <div class="arrow"></div>
+        </div>
+
+        <!-- Node 4 -->
+        <div class="node" style="background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);">
+            <h3>4. Imre Lakatos <span>[Program Penelitian]</span></h3>
+            <p>Menggabungkan rasionalitas Popper & Kuhn melalui Inti Keras & Sabuk Pelindung.</p>
+        </div>
+    </div>
+</div>
+</center>
 
   <p>
     Urutan tersebut bukan berarti bahwa pemikiran mereka merupakan satu teori
@@ -3961,6 +4073,58 @@ Karena itu, menilai falsiti tidak cukup hanya dengan merasa bahwa sesuatu “tid
     Inilah bentuk <b>nalar kritis</b> yang sangat penting dalam matematika,
     sains, dan penelitian.
   </p>
+  
+ 
+    <h1>Epistemologi: JTB & Problem Gettier</h1>
+    <div class="subtitle">Fondasi Pemahaman Pengetahuan dan Batasannya dalam Filsafat Ilmu</div>
+
+    <h2>1. Justified True Belief (JTB)</h2>
+    <p>
+        Secara tradisional, sejak era Plato, sebuah klaim dianggap sebagai <b>pengetahuan (knowledge)</b> jika memenuhi tiga syarat mutlak yang saling beririsan:
+    </p>
+
+    <div class="formula-box">
+        Pengetahuan = Justification (Pembenaran) ∧ Truth (Kebenaran) ∧ Belief (Kepercayaan)
+    </div>
+
+    <div class="grid-cards">
+        <div class="card">
+            <h3>Belief</h3>
+            <p style="font-size: 13px;">Subjek secara mental mempercayai bahwa suatu klaim itu benar.</p>
+        </div>
+        <div class="card">
+            <h3>Truth</h3>
+            <p style="font-size: 13px;">Klaim tersebut memang benar sesuai dengan realitas objektif.</p>
+        </div>
+        <div class="card">
+            <h3>Justification</h3>
+            <p style="font-size: 13px;">Ada alasan, bukti, atau metode rasional yang mendukung kepercayaan tersebut.</p>
+        </div>
+    </div>
+
+    <h2>2. Problem Gettier</h2>
+    <p>
+        Pada tahun 1963, <b>Edmund Gettier</b> mempublikasikan makalah yang mengguncang dunia epistemologi. Ia membuktikan bahwa definisi JTB <b>belum cukup</b> karena seseorang bisa saja memiliki keyakinan yang benar dan memiliki pembenaran, namun itu bukanlah pengetahuan sejati melainkan sekadar <b>kebetulan epistemik (epistemic luck)</b>.
+    </p>
+
+    <div class="gettier-box">
+        <h3>Eksperimen Pikiran: Kasus Jam Rusak</h3>
+        <ul>
+            <li><b>Kepercayaan (Belief):</b> Anda masuk ruangan dan melihat jam menunjukkan pukul 12:00, lalu Anda percaya saat itu pukul 12:00.</li>
+            <li><b>Kebenaran (Truth):</b> Secara kebetulan, waktu saat itu memang tepat pukul 12:00.</li>
+            <li><b>Pembenaran (Justification):</b> Anda punya alasan kuat karena jam dinding tersebut biasanya berfungsi normal.</li>
+            <li><b>Masalahnya:</b> Tanpa Anda ketahui, jam dinding tersebut ternyata sudah mati sejak 12 jam yang lalu. </li>
+        </ul>
+        <p style="margin-top: 10px; margin-bottom: 0; font-style: italic; color: #742a2a;">
+            Kesimpulan: Anda benar secara kebetulan, tetapi Anda tidak memiliki "pengetahuan" bahwa jam itu berfungsi akurat saat itu.
+        </p>
+    </div>
+
+    <h2>3. Relevansi dalam Filsafat Ilmu</h2>
+    <p>
+        Dalam sains, Problem Gettier menunjukkan bahwa bukti empiris atau induksi statistik terkadang bisa menghasilkan kesimpulan yang benar lewat jalur penalaran yang cacat atau asumsi yang keliru. Hal ini mendorong para filsuf ilmu mencari syarat tambahan (seperti keandalan proses/<i>reliabilism</i>) untuk memastikan sains terhindar dari sekadar "kebetulan beruntung".
+    </p>
+
 
 
   <h2>11. Ringkasan Konseptual</h2>
